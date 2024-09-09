@@ -35,10 +35,9 @@ To view or edit this project locally:
 
 2. Navigate to the project directory:
 
- ```
+```
  cd Resonsive_Web_Design-1.0
 ```
-
 3. Open the index.html file in your preferred web browser to view the responsive webpage.
 
 ##  File Structure
