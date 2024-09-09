@@ -40,7 +40,7 @@ To view or edit this project locally:
 
 ##   File Structure
 - index.html: The main HTML file for the project.
-- css/styles.css: The CSS file that contains all the styles for the project.
+- css/respon-styles.css: The CSS file that contains all the styles for the project.
 - images/: A directory containing the images used in the project.
 
 ## Preview
