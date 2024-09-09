@@ -28,22 +28,20 @@ The webpage features:
 To view or edit this project locally:
 
 1. Clone this repository to your local machine:
-
-   ```
-   git clone https://github.com/judeik/Resonsive_Web_Design-1.0.git
-  
-
+    ```
+     git clone https://github.com/judeik/Resonsive_Web_Design-1.0.git
+     ```
 2. Navigate to the project directory:
 
-```
- cd Resonsive_Web_Design-1.0
-
+    ```
+     cd Resonsive_Web_Design-1.0
+     ```
 3. Open the index.html file in your preferred web browser to view the responsive webpage.
 
-##  File Structure
-index.html: The main HTML file for the project.
-css/styles.css: The CSS file that contains all the styles for the project.
-images/: A directory containing the images used in the project.
+##   File Structure
+- index.html: The main HTML file for the project.
+- css/styles.css: The CSS file that contains all the styles for the project.
+- images/: A directory containing the images used in the project.
 
 ## Preview
 You can see the design in action by resizing your browser window or opening the page on different devices. The layout will adjust automatically to provide the best viewing experience.
