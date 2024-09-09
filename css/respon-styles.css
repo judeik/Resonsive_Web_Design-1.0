@@ -1,0 +1,97 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* line-height: 1.6; */
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* .img {
+    max-width: 100%;
+    height: auto;
+} */
+
+/* Make the images responsive */
+.box img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Prevent inline spacing issues */
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;  /* take the text into the next line if there is no space, think of excell */
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    margin: 10px;
+    flex: 1 1 100%; /* grow shrink basics */
+    /* flex: 1 1 100%; Full width on smallest screens */
+    text-align: center;
+    min-width: 200px; /* prevent the box from shrinking too much */
+}
+
+
+ /* Media Queries for Responsiveness */
+
+/* smaller screens > 480px  */
+@media (min-width: 480px) {
+    .box {
+        flex: 1 1 100%;
+    }
+}
+
+/* Tablets and small laptops */
+@media (min-width: 768px) {
+    .box {
+        flex: 1 1 45%; /* Two boxes per row on medium screens */
+    }
+}
+
+/* Desktops and larger devices */
+@media (min-width: 1024px) {
+    .box {
+        flex: 1 1 30%; /* Three boxes per row on large screens */
+    }
+}
+
+
+/* media queries for responsiveness  */
+
+/* larger screens > 768px  */
+/* @media (min-width: 768px) {
+    .box {
+        flex: 1 1 30%;
+    }
+} */
+
+/* larger screens > 768px  */
+/* @media (min-width: 768px) {
+    .box {
+        flex: 1 1 45%;
+    }
+} */
+
+/* smaller screens > 480px  */
+/* @media (min-width: 480px) {
+    .box {
+        flex: 1 1 100%;
+    }
+} */

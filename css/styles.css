@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* distribute the space items */
+    align-items: center;  /* aligns verically in the center  */
+    background-color: lightgray;
+    height: 300px;
+}
+
+.box{
+    flex: 1;  /* makes all boxes take up the same space  */
+    margin: 0 10px; /* adds horizontal space between the boxes  */
+    padding: 20px;  /* add space inside each box  */
+    background-color: aqua;
+    text-align: center;
+
+    /* for both margin and padding 
+    margin: top right bottom left;
+    margin: vertical horizontal;
+    margin: 20px; */
+}
+
+
+
